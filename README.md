@@ -99,8 +99,11 @@ This section has moved here: [https://impactanalysis.netlify.app/](https://faceb
 
 ## Screenshots
 
-<img src="https://github.com/aayushme/Impact-Analytics-Software-Engineer-Challenge/blob/master/Screenshots/Screenshot%20(457).png
-" width="800" height="400" alt=""  />
+<img src="https://github.com/aayushme/Impact-Analytics-Software-Engineer-Challenge/blob/master/Screenshots/Screenshot%20(457).png?raw=true" width="800" height="400" alt=""  />
+<img src="https://github.com/aayushme/Impact-Analytics-Software-Engineer-Challenge/blob/master/Screenshots/Screenshot%20(458).png?raw=true" width="800" height="400" alt=""  />
+<img src="https://github.com/aayushme/Impact-Analytics-Software-Engineer-Challenge/blob/master/Screenshots/Screenshot%20(459).png?raw=true" width="800" height="400" alt=""  />
+<img src="https://github.com/aayushme/Impact-Analytics-Software-Engineer-Challenge/blob/master/Screenshots/Screenshot%20(460).png?raw=true" width="800" height="400" alt=""  />
+<img src="https://github.com/aayushme/Impact-Analytics-Software-Engineer-Challenge/blob/master/Screenshots/Screenshot%20(462).png?raw=true" width="800" height="400" alt=""  />
 
 ## Authors
 <table>

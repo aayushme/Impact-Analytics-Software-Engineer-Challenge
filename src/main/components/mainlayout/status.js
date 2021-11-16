@@ -28,7 +28,15 @@ const MainLayout = () => {
       </div>
 
       <div className="developer__content">
-        {data == null ? <></> : <Card val={data} />}
+        {data == null ? (
+          <>
+            <div className="about__us-head">
+              <h1>Please select/reject someone for data dispplay</h1>
+            </div>
+          </>
+        ) : (
+          <Card val={data} />
+        )}
       </div>
     </div>
   );

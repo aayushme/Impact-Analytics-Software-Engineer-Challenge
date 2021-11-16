@@ -1,0 +1,3 @@
+
+export const MEMBER_GET_SUCCESS = 'MEMBER_GET_SUCCESS';
+export const MEMBER_GET_FAIL = 'MEMBER_GET_FAIL';

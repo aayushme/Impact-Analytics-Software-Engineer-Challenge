@@ -1,0 +1,266 @@
+/********faculty cards****/
+.card {
+  margin: 2rem;
+  background-color: #fff;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 2rem;
+  font-size: 15px;
+  box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.heightis {
+  height: 440px !important;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-left: 3.1rem;
+}
+
+.selected-button button {
+  margin-left: 2rem;
+  width: 20rem;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(243, 237, 230);
+  color: #000000;
+  text-decoration: none;
+}
+
+.selected-button Link {
+  text-decoration: none;
+}
+
+.card .banner {
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.card .bannercr {
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.link_remove {
+  text-decoration: none;
+}
+.card .bannercr img {
+  background-color: #fff;
+  width: 8rem;
+  height: 8rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  transform: translateY(50%);
+  transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.card .bannercr img:hover {
+  transform: translateY(50%) scale(1.3);
+}
+.card .banner img {
+  background-color: #fff;
+  width: 8rem;
+  height: 8rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  transform: translateY(50%);
+  transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.card .banner img:hover {
+  transform: translateY(50%) scale(1.3);
+}
+.card .menu {
+  width: 100%;
+  height: 5.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.card h2.name {
+  text-align: center;
+  color: #224056;
+  font-weight: bold;
+  padding: 0 2rem 0.5rem;
+  margin: 0;
+}
+.card .title {
+  color: #a0a0a0;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 0 2rem 1.2rem;
+  text-decoration: none;
+}
+.card .actions {
+  padding: 0 2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  order: 99;
+  text-decoration: none;
+}
+
+.card .bannerdeveloper {
+  background-image: url("");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.card .bannerdeveloper img {
+  background-color: #fff;
+  width: 8rem;
+  height: 8rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  transform: translateY(50%);
+  transition: transform 200ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+.card .bannerdeveloper img:hover {
+  transform: translateY(50%) scale(1.3);
+}
+
+.events__content {
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: wrap;
+}
+.github {
+  color: black;
+}
+
+.our__members-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-bottom: 3rem;
+}
+.sociallinks i {
+  margin: 0.2rem;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+  border-radius: 200px;
+}
+.insta {
+  color: pink;
+}
+.branch {
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+
+.about__us-head h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #fff;
+}
+.about__us-head {
+  text-align: center;
+  left: 20%;
+  right: 20%;
+}
+
+.about__us-head p {
+  color: white;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+/*=============== Search Bar================ */
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #003941;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #003941;
+}
+
+.searchButton {
+  width: 100px;
+  height: 36px;
+  border: 1px solid #003941;
+  background: #003941;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.searchButton-new {
+  width: 150px;
+  margin-left: 0.3rem;
+  margin-bottom: 1.8rem;
+  height: 40px;
+  border: 1px solid #003941;
+  background: #003941;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/*---------- Selected Rejected Buttons ----------*/
+.selected {
+  color: greenyellow;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.rejected {
+  color: red;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

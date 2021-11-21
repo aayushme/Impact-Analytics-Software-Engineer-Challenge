@@ -21,7 +21,7 @@ const MainLayout = (props) => {
     });
 
     setnewData(filteredData);
-    console.log(newdata);
+    
     setSearch("");
   };
 

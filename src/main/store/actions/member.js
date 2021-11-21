@@ -28,7 +28,6 @@ export const getMember = () =>{
       .get("https://s3-ap-southeast-1.amazonaws.com/he-public-data/users49b8675.json",axiosConfig
       )
       .then((res) => {
-        console.log("RESPONSE RECEIVED: ", res.data);
         dispatch(memberGetSuccess(res.data));
         
       })
